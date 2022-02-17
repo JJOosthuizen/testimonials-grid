@@ -32,7 +32,7 @@ Mobile preview:
 ### Links
 
 
-- Live Site URL: [Live Solution](https://your-live-site-url.com)
+- Live Site URL: [Live Solution](https://joos-testimonials.netlify.app/)
 
 ### Built with
 
