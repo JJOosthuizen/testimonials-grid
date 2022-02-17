@@ -23,11 +23,11 @@ Users should be able to:
 
 Desktop preview:
 
-![](.images/DesktopScreenshot.png)
+![](./images/DesktopScreenshot.png)
 
 Mobile preview:
 
-![](.images/MobileScreenshot.png)
+![](./images/MobileScreenshot.png)
 
 ### Links
 
