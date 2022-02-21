@@ -164,10 +164,7 @@ p, .verified {
         grid-row: 1 / span 2;
     }
     .summary {
-        font-size: 1.5rem;
-    }
-    .quote {
-        font-size: 1.25em;
+        font-size: 1.25rem;
     }
     .first-panel, .second-panel, .third-panel, .fourth-panel, .fifth-panel{
         margin: 0 0;
