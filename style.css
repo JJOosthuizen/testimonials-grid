@@ -24,13 +24,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: var(--light-grayish-blue);   
 }
 
 .testimonials {
     display: grid;
     grid-gap: 2em;
-    background-color: var(--light-grayish-blue);
 }
 
 .first-panel {
@@ -39,6 +38,7 @@ main {
     color: var(--white);
     padding: 20px;
     margin: 2em 2em 0 2em;
+    z-index: 1;
 }
 
 .title {
@@ -75,9 +75,10 @@ main {
 
 .title-right {
     position: absolute;
+    padding-right: 10%;
     top: 0;
     right: 0;
-    opacity: 0.5;
+    z-index: -1;
 }
 
 
@@ -95,7 +96,7 @@ p, .verified {
 }
 
 .summary {
-    padding: 1em 0em;
+    padding: 0.25em 0em 0.5em;
     font-weight: 600;
     position: relative;
 }
@@ -138,8 +139,7 @@ p, .verified {
     .testimonials {
         min-width: 768px;
         grid-template-columns: repeat(4, 1fr);
-        padding: 5%;
-        margin: 2%;
+        padding: 5% 10%;
     }
     .first-panel {
         display: grid;
